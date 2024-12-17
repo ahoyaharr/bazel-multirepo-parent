@@ -1,0 +1,11 @@
+__init__.py 
+_main/external/__init__.py 
+_main/external/bazel_multirepo_b/__init__.py 
+_main/external/bazel_multirepo_b/hello_world.exe C:/users/a/_bazel_a/wm4p4gsm/execroot/_main/bazel-out/x64_windows-opt-exec-ST-13d3ddad9198/bin/external/bazel_multirepo_b/hello_world.exe
+_main/external/bazel_multirepo_b/hello_world.py C:/users/a/_bazel_a/wm4p4gsm/external/bazel_multirepo_b/hello_world.py
+_main/external/bazel_multirepo_b/hello_world.zip C:/users/a/_bazel_a/wm4p4gsm/execroot/_main/bazel-out/x64_windows-opt-exec-ST-13d3ddad9198/bin/external/bazel_multirepo_b/hello_world.zip
+_repo_mapping C:/users/a/_bazel_a/wm4p4gsm/execroot/_main/bazel-out/x64_windows-opt-exec-ST-13d3ddad9198/bin/external/bazel_multirepo_b/hello_world.exe.repo_mapping
+bazel_multirepo_b/__init__.py 
+bazel_multirepo_b/hello_world.exe C:/users/a/_bazel_a/wm4p4gsm/execroot/_main/bazel-out/x64_windows-opt-exec-ST-13d3ddad9198/bin/external/bazel_multirepo_b/hello_world.exe
+bazel_multirepo_b/hello_world.py C:/users/a/_bazel_a/wm4p4gsm/external/bazel_multirepo_b/hello_world.py
+bazel_multirepo_b/hello_world.zip C:/users/a/_bazel_a/wm4p4gsm/execroot/_main/bazel-out/x64_windows-opt-exec-ST-13d3ddad9198/bin/external/bazel_multirepo_b/hello_world.zip

@@ -1,0 +1,4 @@
+Running hello_world from bazel-multirepo-a:
+Hello, World! - External A
+\nRunning hello_world from bazel-multirepo-b:
+Hello, World! - External B

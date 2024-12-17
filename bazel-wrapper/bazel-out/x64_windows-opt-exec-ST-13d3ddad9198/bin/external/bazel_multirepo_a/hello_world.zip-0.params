@@ -1,0 +1,7 @@
+__main__.py=bazel-out/x64_windows-opt-exec-ST-13d3ddad9198/bin/external/bazel_multirepo_a/hello_world.temp
+__init__.py=
+runfiles/_main/__init__.py=
+runfiles/bazel_multirepo_a/__init__.py=
+runfiles/__init__.py=
+runfiles/bazel_multirepo_a/hello_world.py=external/bazel_multirepo_a/hello_world.py
+runfiles/_repo_mapping=bazel-out/x64_windows-opt-exec-ST-13d3ddad9198/bin/external/bazel_multirepo_a/hello_world.zip.repo_mapping

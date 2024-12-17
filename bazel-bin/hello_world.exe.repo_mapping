@@ -1,0 +1,5 @@
+,bazel_multirepo_a,bazel_multirepo_a
+,bazel_multirepo_b,bazel_multirepo_b
+,bazel_multirepo_project,_main
+bazel_multirepo_a,bazel_multirepo_project,_main
+bazel_multirepo_b,bazel_multirepo_project,_main
