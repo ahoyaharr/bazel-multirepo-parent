@@ -1,12 +1,12 @@
 def _sequential_run_impl(ctx):
     # Run the py_binary scanner target
 
-    out = ctx.outputs.text
-    # second_out = ctx.actions.declare_file("second" + "_log.txt")
+    out_a = ctx.actions.declare_file("log1.txt")
+    out_b = ctx.actions.declare_file("log2.txt")
 
     ctx.actions.run(
         executable = ctx.attr.first[DefaultInfo].files_to_run.executable,
-        outputs = [out],
+        outputs = [out_a],
         arguments = [
             "--args", "helloworld",
         ],
@@ -14,14 +14,14 @@ def _sequential_run_impl(ctx):
     
     ctx.actions.run(
         executable = ctx.attr.second[DefaultInfo].files_to_run.executable,
-        outputs = [out],
+        outputs = [out_b],
         arguments = [
             "--args", "helloworld",
         ],
     )
 
     # Return the scan log as an output
-    return [DefaultInfo(files = depset([out]))]
+    return [DefaultInfo(files = depset([out_a, out_b]))]
 
 # Rule declaration
 sequential_run = rule(
